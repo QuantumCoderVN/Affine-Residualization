@@ -1,0 +1,40 @@
+# Bản triển khai cũ và notebook không dùng trong mô hình rút gọn.
+# Chỉ bỏ qua khi đưa lên Git; các file vẫn được giữ nguyên trên máy.
+/_ban_day_du/
+/test.ipynb
+
+# Môi trường Python cục bộ.
+.venv/
+venv/
+env/
+
+# Cache, bytecode, kiểm thử và đóng gói Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Cấu hình IDE và hệ điều hành trên từng máy.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Biến môi trường, log và file tạm.
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+
+# Giữ so_sanh.png trong Git vì README dùng ảnh này để hiển thị kết quả.
